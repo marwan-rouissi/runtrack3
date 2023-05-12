@@ -1,0 +1,19 @@
+#mainBlock {
+    margin-left: 120px;
+
+    display: flex; flex-direction: row;
+    outline: 1px solid black;
+    height: 410px;
+    width: 815px;
+}
+#mainBlock div {
+    margin: 1px;
+}
+#gameBlock {
+    margin-left: 120px;
+    margin-top: 10px;
+    display: flex; flex-direction: row;
+    outline: 1px solid black;
+    height: 410px;
+    width: 815px;
+}
