@@ -1,22 +1,22 @@
-const string = {
-    name: "La Plateforme_",
-    address: "8 rue d'hozier",
-    city: "Marseille",
-    nb_staff: "11",
-    creation:"2019"
-    };
 
-    function jsonValueKey(string) {
 
-            let inputVal = document.getElementById("in").value;
-  
-            document.getElementById("exp").innerHTML = string[inputVal]; 
-           
+$(document).ready(function() {
+    var mB = $("#mainBlock");
+    var divs = mB.children();
+    var game = $("#gameBlock");
+    var gameDivs = game.children();
+    console.log(divs)
+    $("#shuffle").click(function () {
+        
+        while (divs.length) {
+            mB.append(divs.splice(Math.floor(Math.random() * divs.length), 1)[0]);
         }
-            
-    $(document).ready(function () {
-    
-    $("#button").click( function() {
-        jsonValueKey(string);
     })
-    });
+
+    $("img").click(function () {
+        $("#slot1").append(this);
+        
+
+    })
+
+});
