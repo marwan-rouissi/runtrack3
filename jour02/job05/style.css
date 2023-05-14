@@ -1,0 +1,13 @@
+body {
+    min-block-size: 4096px;
+    position: relative;
+    background-color: aliceblue;
+}
+
+footer {
+    padding: 50px;
+    background-color: blue;
+    position: fixed;
+    margin-top: 630px;
+    width: 100%;
+}
